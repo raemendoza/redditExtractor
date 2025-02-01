@@ -7,7 +7,7 @@ stop_words = stopwords.words('english')
 category = '' # family, romance, spiritual,suicide
 
 # Open txt file with subreddit list separated by lines
-with open(f"D:\\User\\Documents\\{category}.txt") as f:
+with open(f".\\{category}.txt") as f:
     sr_list = [line.rstrip('\n') for line in f]
 
 # Extracts the subscriber count of a given Subreddit list
