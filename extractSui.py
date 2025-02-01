@@ -9,7 +9,7 @@ stop_words = stopwords.words('english')
 category = 'suicide'
 
 # Open txt file with subreddit list separated by lines
-with open(f"D:\\User\\Documents\\{category}.txt") as f:
+with open(f".\\{category}.txt") as f:
     sr_list = [line.rstrip('\n') for line in f]
 
 # Function to tokenize data into meaningful words, removing stop words, and returning them in a list.
